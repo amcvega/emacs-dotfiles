@@ -226,6 +226,6 @@ ask user for the window to select"
 	  (set-window-dedicated-p (car w) (cdr w))))
       key))
 
-(global-set-key (kbd "C-x o") 'switch-window)
+(global-set-key (kbd "C-x i") 'switch-window)
 (provide 'switch-window)
 ;;; switch-window.el ends here
